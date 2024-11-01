@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -84,7 +83,8 @@ h1 {
     height: 385px;
     padding: 20px;
     text-align: center;
-    position: relative;}
+    position: relative;
+}
 
 .card img {
     width: 100%;
@@ -95,7 +95,7 @@ h1 {
 
 .card h2 {
     color: #4a90e2;
-    margin-top: 20px;    
+    margin-top: 20px;
     margin-bottom: 15px;
     font: caption;
     font-weight: 600;
@@ -123,4 +123,42 @@ button {
 
 button:hover {
     background-color: #e67529;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow: scroll;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .services {
+        padding-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    .description {
+        margin: 15px 77px 30px;
+    }
+
+    .light-blue1 {
+        height: 20%;
+    }
+
+    .orange {
+        height: 12%;
+    }
+
+
+    .light-blue2 {
+        height: 68%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
 }
